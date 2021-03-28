@@ -1,0 +1,101 @@
+@font-face{
+    font-family: Gilroy;
+    src: url("../polices/Gilroy-Light.otf");
+}
+
+@font-face{
+    font-family: GilroyExtraBold;
+    src: url("../polices/Gilroy-Light.otf");
+}
+body{
+    font-family: Gilroy;
+    font-weight: bold;
+    color: #314862;
+
+}
+h3{
+    font-family: GilroyExtraBold;
+    color: #2289ff ;
+    font-weight: bold;
+}
+h3 span{
+    color: #314862;
+
+}
+
+
+li{
+    padding: 10px;
+}
+.nav-link{
+    color: #314862;
+}
+.active{
+    color: #2289ff ;
+}
+#commencer{
+    padding-left: 60px;
+}
+
+#commencer a {
+    padding:10px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    border-radius: 20px;
+    border-top-right-radius: 0px;
+    background-color: #2289ff ;
+}
+
+#savoirplus{
+    padding:12px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 30px;
+    background-color: #2289ff ;
+    text-decoration: none;
+}
+
+h2{
+    font-family: GilroyExtraBold;
+    font-weight: bolder;
+}
+
+
+section img{
+    border-radius:20%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    
+
+}
+#circle1{
+    height: 100px;
+    width: 100px;
+    background-color:#2289ff ;
+    position: absolute;
+    left: -20px;
+    bottom: -20px;
+    border-radius: 50%;
+}
+#circle2{
+    height: 50px;
+    width: 50px;
+    background-color:white ;
+    position: absolute;
+    left: 50px;
+    bottom:-10px;
+    border-radius: 50%;
+}
+
+#rechercher{
+    padding:20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 40px;
+    background-color: #2289ff ;
+    color: white;
+    text-decoration: none; 
+    
+  
+}
